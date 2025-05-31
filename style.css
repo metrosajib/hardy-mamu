@@ -46,13 +46,62 @@ nav a {
 
 }
 .banner{
-    padding: 50px 50px 50px 150px;
+    padding: 50px 50px 0 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: bisque;
+    
+    
 }
 .prof-pic{
     height: 490px;
     width: 400px;
 }
+.header{
+    background-color:bisque;
+    background-image: url(../hardy-mamu/images/header_bg.png);
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover;      /* Scales the image to cover the entire container */
+    background-position: center;
+}
+.banner-greeting{
+    font-size: 45px;
+}
+.banner-title{
+    font-size: 86px;
+    font-weight: 690;
+}
+.about{
+    padding: 125px;
+    background-color: bisque;
+    border-radius: 5px;
+    margin: 70px;
+
+}
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 670;
+    
+}
+.description{
+    color: black;
+    text-align: center;
+    font-size: 19px;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about-info-desc{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: pink;
+    border: 8px;
+}
+.about-info{
+    border: 8px;
+}
+

@@ -1,0 +1,58 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    background-color: bisque;
+    
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.nav-title{
+    color: navy;
+    font-size: 55px;
+    font-weight: 750;
+}
+.txt-prmy{
+    color: orangered;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: darkslategrey;
+}
+.btn-prmy{
+    background-color: orange;
+    border-radius: 5px;
+    border: 0;
+    padding: 12px;
+    color: beige;
+    font-size: 15px;
+    font-weight: 200;
+
+}
+.banner{
+    padding: 50px 50px 50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+.prof-pic{
+    height: 490px;
+    width: 400px;
+}
